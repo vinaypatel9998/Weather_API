@@ -20,16 +20,7 @@ class Header extends Component {
                 </Nav>
               </div>
             </Navbar>
-            <Jumbotron>
-              <div className="container">
-                <div className="row row-header">
-                  <div className="col-12 col-sm-6">
-                    <h1>Forecast information </h1>
-                    <p>Enter the city and Country name below and press find button to get wheather information</p>
-                  </div>
-                </div>
-              </div>
-            </Jumbotron>
+            
           </React.Fragment>
         );
     }
