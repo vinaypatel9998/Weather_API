@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ReactCSSTransitionGroup from 'react-transition-group';
 
 function Footer(props) {
     return(
+       
         <div className="footer">
             <div className="container">
                 <div className="row justify-content-center">             
                     <div className="col-12 col-md-8">
+                        
                         <h5>Vinay Patel</h5>
                         <i className="fa fa-phone fa-lg"></i>: +437-488-2581<br />
                         <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:patelvinay9995@gmail.com">

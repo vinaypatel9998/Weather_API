@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import ReactCSSTransitionGroup from 'react-transition-group';
 ReactDOM.render(
   <React.StrictMode>
     <App />
